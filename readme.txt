@@ -1,0 +1,67 @@
+# Español
+
+## Videojuegos en Vandal: ranking, plataforma, valoración y metadatos
+
+Herramienta modular de web scraping para extraer y estructurar datos del portal de videojuegos Vandal.
+
+### Instalar dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
+### Ejecución
+
+Para iniciar el proceso ejecutar el archivo "main.py" desde la raíz del proyecto:
+
+```bash
+python main.py
+```
+
+Esto generará un dataset contenido en la carpeta data con la siguiente información:
+
+- Ranking: valor numérico entero que indica la posición dentro del ranking global de videojuegos analizados y puntuados por Vandal.
+- Título: Denominación oficial del videojuego.
+- Plataforma: Sistema en el que se ha ejecutado el juego sobre el que se ha realizado el análisis (ej. Nintendo Switch, PC, XBox).
+- Nota: Puntuación obtenida, en una escala 1 a 10, según los criterios de los analistas de Vandal. Este valor puede ser decimal.
+- Descripción: Breve descripción del videojuego redactada por los analistas de Vandal.
+- Desarrollador: Estudio encargado de la creación técnica y creativa del videojuego.
+- Productora: Empresa responsable de la gestión, financiación y marketing durante el ciclo de vida útil del videojuego.
+- Género: Categorización temática y/o mecánica del videojuego (ej. Carreras, Acción, RPG).
+- Fecha_lanzamiento: Fecha completa (en formato día, mes y año) del lanzamiento oficial del videojuego en el mercado español.
+- Año_lanzamiento: Año del lanzamiento.
+- URL: Enlace al análisis pormenorizado del videojuego.
+
+# English
+
+## Video games on Vandal: ranking, platform, rating, and metadata
+
+Modular web scraping tool to extract and structure data from the Vandal video game portal.
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Execution
+
+To start the process, run the "main.py" file from the project root:
+
+```bash
+python main.py
+```
+
+This will generate a dataset contained in the data folder with the following information:
+
+- Ranking: Integer numerical value indicating the position within the global ranking of video games analyzed and rated by Vandal.
+- Title: Official name of the video game.
+- Platform: System on which the game was running for the analysis (e.g., Nintendo Switch, PC, Xbox).
+- Score: Rating obtained, on a scale of 1 to 10, according to Vandal's analysts' criteria. This value can be a decimal.
+- Description: Brief description of the video game written by Vandal's analysts.
+- Developer: Studio in charge of the technical and creative creation of the video game.
+- Producer: Company responsible for management, financing, and marketing during the video game's useful life cycle.
+- Genre: Thematic and/or mechanical categorization of the video game (e.g., Racing, Action, RPG).
+- Release_date: Full date (in day, month, and year format) of the official release of the video game in the Spanish market.
+- Release_year: Year of the release.
+- URL: Link to the detailed analysis of the video game.
