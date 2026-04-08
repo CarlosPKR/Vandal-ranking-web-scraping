@@ -1,5 +1,7 @@
-Jorge Sebastian Soriano
-José Carlos Porras-Ketterer Romero
+- Jorge Sebastian Soriano
+- José Carlos Porras-Ketterer Romero
+
+DOI dataset: https://doi.org/10.5281/zenodo.19465531
 
 # Español
 
