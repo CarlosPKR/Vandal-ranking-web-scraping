@@ -1,13 +1,11 @@
-- Jorge Sebastian Soriano
-- José Carlos Porras-Ketterer Romero
-
-DOI dataset: https://doi.org/10.5281/zenodo.19465531
-
 # Español
 
 ## Videojuegos en Vandal: ranking, plataforma, valoración y metadatos
 
 Herramienta modular de web scraping para extraer y estructurar datos del portal de videojuegos Vandal.
+
+- Página web: https://vandal.elespanol.com/
+- DOI dataset: https://doi.org/10.5281/zenodo.19465531
 
 ### Estructura del repositorio
 
@@ -51,6 +49,9 @@ python main.py
 ## Video games on Vandal: ranking, platform, rating, and metadata
 
 Modular web scraping tool to extract and structure data from the Vandal video game portal.
+
+- Web page: https://vandal.elespanol.com/
+- DOI dataset: https://doi.org/10.5281/zenodo.19465531
 
 ### Repository structure
 
